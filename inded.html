@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="logo.jpg" type="image/png">
+    
+<link href="https://fonts.googleapis.com/css2?family=BBH+Bartle&display=swap" rel="stylesheet">
+</head>
+<body id ="bd">
+    <center><h1 id="H1"><center> BMI  Calculator </center></h1><br></center>
+    <center><h3 id="tag">Track your <span style="color: rgb(150, 255, 21);">BMI</span>, but listen to your body</h3></center>
+    <hr>
+    <br>
+    <p id="para">Body Mass Index (BMI) is a simple numerical measure used to assess whether a person’s body weight is appropriate for their height. 
+        It is calculated by dividing a person’s weight in kilograms by the square of their height in meters. BMI is widely used as a screening tool to categorize individuals as underweight, 
+        normal weight, overweight, or obese, and it helps indicate potential health risks related to body weight. Although BMI is easy to calculate and useful for general assessment, 
+        it does not directly measure body fat and does not account for factors such as muscle mass, age, or gender.
+         Therefore, while BMI is helpful for identifying possible weight-related health concerns, it should not be considered a definitive diagnostic measure.
+    </p>
+    <div  id="mn">
+        <h2 class="text">Enter Your Weight (Kg) :</h2><br>
+    <input type="number" name="Wgt" id="wt" class="int" placeholder="Type Your Weight">
+    <br>
+    <h2 class="text">Enter Your Height (in Meters) :</h2><br>
+    <input type="number" name="Hgt" id="ht" class="int" placeholder="Type Your Height"><br>
+    <h2 class="text">Enter Age :</h2>
+    <input class="int" id="age" type="number" name="age" placeholder="Enter age" pattern="bmi-calculator-normal-ranges" >
+    </div>
+    <center><button id="but"><center>Calcualte BMI  &#128070</center></button><br></center>
+    <div id="res">
+    
+    </div>
+    <div>
+        <p id="below">For individuals <span class="spn">below 18 years of age</span>, BMI is not interpreted using fixed ranges as it is for adults. Instead, 
+        it is evaluated using BMI-for-age percentiles, which take into account <span class="spn">age and sex</span>, because children and adolescents are still growing 
+        and their body composition changes over time. The BMI value is first calculated using the same formula (weight divided by height squared), 
+        but the result is then compared against standardized growth charts. Based on the percentile, a child is classified as underweight (below the 5th percentile),
+         healthy weight (5th to less than the 85th percentile), overweight (85th to less than the 95th percentile), or obese (95th percentile or above). 
+         This percentile-based approach provides a more accurate assessment of growth patterns and health risk in children and teenagers than adult BMI categories.
+    </p>
+    </div>
+    <script src="script.js"></script><br>
+    <div id="gr">
+        <img id="graph"  src="bmi-chart_1.png" alt="graph">
+    <img id="ind" src="bmi-calculator-normal-ranges.png" alt="BMI Index">
+    </div>
+
+    <div id="last">
+        <center>
+             <h1 class="ref">Saravanan B</h1>
+             <h3 class="ref">24CSEA58</h3>
+             <H3 class="ref">Velammal College of Engineering and Technology</H3>
+        <h3 class="ref"><a href="sarabalaji006@gmail.com" target="_blank">sarabalaji006@gmail.com</a></h3>
+
+        </center>
+    </div>
+    
+</body>
+</html>

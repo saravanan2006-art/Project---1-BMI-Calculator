@@ -1,0 +1,194 @@
+#bd{
+    background-image: url(bgimg.jpg);
+    background-repeat: repeat;
+    background-size: cover;
+    
+}
+#H1{
+    display: inline-block;
+    text-align: center;
+    justify-content: center;
+    padding: 5px;
+    font-size: xx-large;
+    font-family: bbh bartle;
+    color:#0f15c1;
+    background-color: #ff0a0a;
+     border-width: 2px;
+    border-style: double;
+    border-color: yellow;
+    border-radius: 20px;
+    
+    opacity: 90%;
+    animation: colorChange 5s infinite alternate;
+}
+.text{
+    display: inline-block;
+    color: darkgrey;
+    place-content: center;
+}
+#ind{
+    display: inline-block;
+    width: 500px;
+    height: 300px;
+
+}
+#new{
+    display: inline-block;
+    color: cyan;
+    background-color: blue;
+    border-style: ridge;
+    border-radius: 10px;
+    border-color: chartreuse;
+}
+#final{
+    display: inline-block;
+     color: cyan;
+    background-color: blue;
+    border-style: ridge;
+    border-radius: 10px;
+    border-color: chartreuse;
+}
+.int{
+    display: flex;
+    place-items: center;
+    background-color: rgb(165, 109, 122);
+    width: 300px;;
+    height: 30px;
+    border-radius: 20px;
+    border-color: blanchedalmond;
+    border-style: groove;
+    left: 50%;
+    transition: all;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+}
+.int:focus{
+    background-color: rgb(163, 239, 70);
+    border-color: black;
+    border-style: solid;
+    border-radius: 0%;
+}
+#para{
+    background-color: rgb(15, 185, 219);
+    border-color: rgb(200, 232, 232);
+    border-radius: 10px;
+    border-style: ridge;
+    font-size: larger;
+    font-weight: bold;
+    font-family: Verdana;
+    transition: all;
+    transition-timing-function: 1s; 
+    opacity: 50%;
+
+}
+#para:hover{
+    background-color: chartreuse;
+    opacity: 100;
+}
+#but{
+    display: inline-block;
+    width: 200px;
+    height: 40px;
+    background-color: black;
+    color: darkturquoise;
+    font-size: larger;
+    font-size: medium;
+    font-family: Times New Roman;
+    transition: all;
+    transition-duration: 0.3s;
+}
+#but:hover{
+    border-color: rgb(147, 17, 54);
+    border-radius: 30px;
+    border-style: ridge;
+    background-color: rgb(219, 234, 19);
+    color: rgb(24, 206, 222);
+}
+#last{
+    background-color: black;
+}
+.ref{
+    color: white;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#mn{
+    display: grid;
+    place-content: center;
+    margin-left: 35%;
+    background-color: white;
+    width: 400px;
+    height: 330px;
+    border-radius: 20px;
+    border-color: blue;
+    border-style: inset;
+    justify-self: center;
+}
+#below{
+    background-color: rgb(15, 185, 219);
+    border-color: rgb(200, 232, 232);
+    border-radius: 10px;
+    border-style: ridge;
+    font-size: larger;
+    font-weight: bold;
+    font-family: Verdana;
+    transition: all;
+    transition-timing-function: 2s; 
+    opacity: 50%;
+
+}
+#below:hover{
+    background-color: chartreuse;
+    opacity: 100;
+}
+#gr{
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    justify-content: center; /* horizontal center */
+    gap: 20px;
+}
+#graph{
+    display: inline-block;
+    width: 500px;
+    height: 300px;
+    transition: all;
+    transition-duration: 0.2s;
+}
+#graph:hover{
+    zoom: 130%;
+}
+#res{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@keyframes colorChange {
+    0% {
+        background-color: rgb(234, 255, 0);
+        border-color: blue;
+        color: red;
+        transform: scale(1);
+    }
+    50% {
+        background-color: rgb(0, 255, 200);
+        color: rgb(180, 37, 51);
+        border-color: chartreuse;
+        transform: scale(1.2);
+    }
+    100% {
+        background-color: green;
+        color: bisque;
+        border-color: darkturquoise;
+        transform: scale(1);
+    }
+}
+hr{
+    height: 3px;
+    width: 32cm;
+    color: black;
+    background-color: black;
+    border-radius: 200px;
+    opacity: 70%;;
+}
